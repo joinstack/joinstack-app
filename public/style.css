@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --main-bg-color: #f6eeea;
+    --primary-color: #000;
+    --text-color: #172B4D;
+  }
+
+  @font-face {
+    font-family: Rubik-Medium;
+    src: url(fonts/Rubik-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: Rubik-Bold;
+    src: url(fonts/Rubik-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: PulpLight;
+    src: url(fonts/PulpDisplay-Light.woff);
+  }
+
+  @font-face {
+    font-family: Pulp;
+    src: url(fonts/PulpDisplay-Medium.woff);
+  }
+
+  @font-face {
+    font-family: PulpBold;
+    src: url(fonts/PulpDisplay-Bold.woff);
+  }
+
+  body {
+      background-color: var(--main-bg-color);
+  }
+
+  nav {
+    padding:8px;
+  }
+
+.logo {
+  float: left;
+  padding: 8px;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.logo a {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: Rubik-Bold;
+  font-size: 20px;
+  letter-spacing: 0px;
+  text-decoration: none;
+
+}
+
+  .title {
+      color: var(--primary-color);
+      font-weight: 500;
+      margin-top: 200px;
+      font-size: 38px;
+      font-family: PulpBold;
+  }
+
+  .about-title {
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-top: 120px;
+    font-size: 38px;
+    font-family: PulpBold;
+}
+
+  .sub-title {
+      color: var(--primary-color);
+      font-weight: 500;
+      font-family: PulpBold;
+      font-size: 25px;
+  }
+
+  .projects-presentation {
+    font-family: PulpBold;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .footer {
+      color: var(--primary-color);
+      font-family: PulpBold;
+      font-size: 16px;
+      margin-top: 80px;
+  }
+
+  .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  ul {
+    list-style: none;
+    margin: 1.8rem 0 1rem;
+    padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 10px;
+}
+
+  ul li a {
+    color: var(--primary-color);
+    font-size: 1.7rem;
+  }
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  float: left;
+}
+
+nav ul li:not(:first-child){
+  margin-left: 48px;
+}
+
+nav ul li:last-child {
+  margin-right: 24px;
+}
+
+nav ul li a,
+nav ul li a:hover {
+  display: inline-block;
+  outline: none;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+  font-family: PulpBold;
+}
+
+@media screen and (max-width:864px) {
+
+  .title {
+    font-size: 32px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+  }
+
+
+  .logo {
+      padding: 0;
+      margin-top: 12px;
+  }
+
+  .nav-wrapper {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: var(--main-bg-color);
+      opacity: 0;
+      transition: all 0.2s ease;
+  }
+
+  .nav-wrapper ul {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 90%;
+  }
+
+  .nav-wrapper ul li {
+      display: block;
+      float: none;
+      width: 100%;
+      text-align: right;
+      margin-bottom: 10px;
+  }
+
+  .nav-wrapper ul li:nth-child(1) a {
+      transition-delay: 0.2s;
+  }
+
+  .nav-wrapper ul li:nth-child(2) a {
+      transition-delay: 0.3s;
+  }
+
+  .nav-wrapper ul li:nth-child(3) a {
+      transition-delay: 0.4s;
+  }
+
+  .nav-wrapper ul li:nth-child(4) a {
+      transition-delay: 0.5s;
+  }
+
+  .nav-wrapper ul li:not(:first-child) {
+      margin-left: 0;
+  }
+
+  .nav-wrapper ul li a {
+      padding: 10px 24px;
+      opacity: 0;
+      color: var(--primary-color);
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      transform: translateX(-20px);
+      transition: all 0.2s ease;
+  }
+
+  .nav-btn {
+      position: fixed;
+      right: 10px;
+      top: 10px;
+      display: block;
+      width: 48px;
+      height: 48px;
+      cursor: pointer;
+      z-index: 9999;
+      border-radius: 50%;
+  }
+
+  .nav-btn i {
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: var(--primary-color);
+      border-radius: 2px;
+      margin-left: 14px;
+  }
+
+  .nav-btn i:nth-child(1){
+      margin-top:16px;
+  }
+
+  .nav-btn i:nth-child(2){
+      margin-top: 4px;
+      opacity: 1; 
+  }
+
+  .nav-btn i:nth-child(3){
+      margin-top: 4px;
+  }
+}
+
+#nav:checked + .nav-btn {
+  transform: rotate(45deg);
+}
+
+#nav:checked + .nav-btn i {
+  background: var(--primary-color);
+  transition: transform 0.2s ease;
+}
+
+#nav:checked + .nav-btn i:nth-child(1) {
+  transform: translateY(6px) rotate(180deg);
+}
+
+#nav:checked + .nav-btn i:nth-child(2) {
+  opacity: 0;
+}
+
+#nav:checked + .nav-btn i:nth-child(3) {
+  transform: translateY(-6px) rotate(90deg);
+}
+
+#nav:checked ~ .nav-wrapper {
+  z-index: 9990;
+  opacity: 1;
+}
+
+#nav:checked ~ .nav-wrapper ul li a {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+button {
+  width: 280px;
+  background: none;
+  display: block;
+  border: 3px solid white;
+  padding: 14px 10px;
+  outline: none;
+  color: white;
+  border-radius: 50px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: .25s;
+}
+
+button:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.terms-links ul li a:hover {
+  color: var(--primary-color);
+}
+
+.social-icons a:hover {
+  color: var(--text-color);
+}
+
+.section-content { 
+  margin-top: 150px;
+  color: #fff;
+}
+
+.section-content a {
+  color: var(--primary-color);
+}
+
+.bio {
+  color: var(--text-color);
+  font-size: 20px;
+  font-family: Pulp;
+  margin-top: 50px;
+}
+
+.notes-p1 {
+  color: var(--text-color);
+  font-size: 20px;
+  font-family: Pulp;
+  margin-top: 50px;
+}
+
+.notes-p2 {
+  color: var(--text-color);
+  font-size: 20px;
+  font-family: Pulp;
+  margin-top: 30px;
+}
+
+.title-newsletter {
+  margin-top: 220px;
+  font-family: PulpBold;
+  color: #fff;
+}
+
+#rtb {
+  margin-top: 100px;
+}
+
+#rtb p {
+  color: var(--text-color);
+  font-family: PulpLight;
+  font-size: 16px;
+}
+
+#rtb a h2 {
+  color: var(--primary-color);
+  font-family: PulpBold;
+}
+
+#rtb .excerpt {
+  color: #999;
+  font-family: Pulp;
+}
+
+#rtb .author { 
+  color: var(--primary-color);
+}
+
+#rtb figcaption {
+  display: none;
+}
+
+.container .bio a {
+  text-decoration: none;
+}
+
+#mce-EMAIL {
+  margin-top: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  background: transparent;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#mc_embed_signup_scroll .button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mc_embed_signup_scroll .button-wrapper input {
+  background: transparent;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+#mc-embedded-subscribe {
+  height: auto;
+}
+
+.startups-presentation {
+  margin-top: 30px;
+}
+
+.startups-presentation h3 {
+  font-family: PulpBold;
+}
+
+.startups-link a {
+  font-family: PulpBold;
+  font-size: 18px;
+  margin-bottom: 60px;
+  color: rgb(0, 103, 223);
+}
+
+.startups-description {
+  margin-top: 20px;
+  font-family: Pulp;
+  font-size: 18px;
+}
+
+.book-list-title {
+  margin-top: 60px;
+  font-family: PulpBold;
+}
+
+.book-list-link {
+  margin-top: 40px;
+  display: grid;
+}
+
+.book-list-link a {
+  font-size: 20px;
+  font-family: PulpLight;
+  text-decoration: none;
+}
+
+.article-presentation {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: PulpBold;
+}
+
+.articles-section {
+  margin-top: 80px;
+}
+
+#all_articles {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.article-item {
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.post-title a {
+  font-size: 26px;
+  color: #fff;
+  font-family: Pulp;
+  text-decoration: none;
+}
+
+.article-item .short-description {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Pulp;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.article-item .extension-text {
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.article-item .extension-text {
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.article-item .extension-text a {
+  color: #fff;
+}
