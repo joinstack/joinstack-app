@@ -13,7 +13,7 @@ function Blog() {
                 <div id="articles" className="articles-section">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="section-title" id="all_articles">All Articles</h2>
+                            <h2 class="section-title" id="all_articles">Our work</h2>
                         </div>
                         <ArticleList />
                     </div>
