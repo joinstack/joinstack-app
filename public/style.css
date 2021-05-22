@@ -60,13 +60,22 @@
 
 }
 
-  .title {
-      color: var(--primary-color);
-      font-weight: 500;
-      margin-top: 200px;
-      font-size: 38px;
-      font-family: PulpBold;
-  }
+.header-title {
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  font-family: PulpBold;
+  display: block;
+  overflow-wrap: break-word;
+  text-align: center;
+  height: auto;
+  margin-top: 40vh;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
   .about-title {
     color: var(--primary-color);
@@ -76,11 +85,11 @@
     font-family: PulpBold;
 }
 
-  .sub-title {
-      color: var(--primary-color);
-      font-weight: 500;
-      font-family: PulpBold;
-      font-size: 25px;
+.sub-title {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-family: Pulp;
+  font-size: 20px;
   }
 
   .projects-presentation {
