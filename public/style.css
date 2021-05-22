@@ -4,7 +4,7 @@
   }
 
   :root {
-    --main-bg-color: #f6eeea;
+    --main-bg-color: #fff;
     --primary-color: #000;
     --text-color: #172B4D;
   }
@@ -57,7 +57,6 @@
   font-size: 20px;
   letter-spacing: 0px;
   text-decoration: none;
-
 }
 
 .header-title {
@@ -91,6 +90,7 @@
   font-weight: 500;
   font-family: Pulp;
   font-size: 20px;
+  margin-bottom: 50px;
   }
 
   .projects-presentation {
@@ -129,6 +129,13 @@ ul li {
     color: var(--primary-color);
     font-size: 1.7rem;
   }
+
+.illustration-img {
+  max-width: 100%;
+  max-height: 300px;
+  display: block;
+  margin: auto;
+}
 
 nav ul {
   float: right;

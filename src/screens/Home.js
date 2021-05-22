@@ -16,6 +16,7 @@ function Home() {
             <div className="container">
                 <TopNavBar/>
                 <HeaderTitle/>
+                <img src={illustration} class="illustration-img text-center"/>
             </div>
             <Footer />
         </div>
