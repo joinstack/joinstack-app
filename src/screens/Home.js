@@ -17,8 +17,10 @@ function Home() {
                 <TopNavBar/>
                 <HeaderTitle/>
                 <img src={illustration} class="illustration-img text-center"/>
-                <h3 className="title-presentation text-center">We are a web & app development company that turns your ideas into a new driving force of your business.</h3>
-                <p className="text-center description-presentation">We hire brilliant web and mobile app developers to deliver projects on time and maintain the top-notch code standards.</p>
+                <div className="max-width-800">
+                    <h3 className="title-presentation text-center">We are a web & app development company that turns your ideas into a new driving force of your business.</h3>
+                    <p className="description-presentation text-center">We hire brilliant web and mobile app developers to deliver projects on time and maintain the top-notch code standards.</p>
+                </div>
             </div>
             <Footer />
         </div>

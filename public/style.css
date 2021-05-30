@@ -100,8 +100,18 @@
 
 .description-presentation {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 20px;
   font-family: PulpLight;
+}
+
+.max-width-800 {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.height-60 { 
+  height: 60px;
 }
 
   .projects-presentation {

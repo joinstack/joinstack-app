@@ -21,7 +21,7 @@ function HeaderTitle() {
     return (
         <div>
             <h3 className="header-title">We build beautiful and scalable solutions</h3>
-            <p className="text-center sub-title" id="slogan">Creating mobile and web apps for your daily needs</p>
+            <p className="text-center sub-title height-60" id="slogan">Creating mobile and web apps for your daily needs</p>
         </div>
     )
 }
