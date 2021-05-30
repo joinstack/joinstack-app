@@ -93,6 +93,17 @@
   margin-bottom: 50px;
   }
 
+.title-presentation {
+  margin-top: 20vh;
+  font-family: Pulp;
+}  
+
+.description-presentation {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: PulpLight;
+}
+
   .projects-presentation {
     font-family: PulpBold;
     margin-top: 80px;

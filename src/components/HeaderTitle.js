@@ -2,7 +2,7 @@ import React from 'react';
 
 
 function HeaderTitle() {
-    var words = ["Creating impressive products", "You name it, we make it", "Creating mobile and web apps for your daily needs", "We bring your ideas to life"];  
+    var words = ["You name it, we make it", "Creating impressive products", "We bring your ideas to life", "Creating mobile and web apps for your daily needs"];  
     let currentWord = -1; 
 
     window.setInterval(function(){ 
@@ -20,8 +20,8 @@ function HeaderTitle() {
 
     return (
         <div>
-            <h2 className="header-title">A software development company</h2>
-            <p className="text-center sub-title" id="slogan">We bring your ideas to life</p>
+            <h3 className="header-title">We build beautiful and scalable solutions</h3>
+            <p className="text-center sub-title" id="slogan">Creating mobile and web apps for your daily needs</p>
         </div>
     )
 }
