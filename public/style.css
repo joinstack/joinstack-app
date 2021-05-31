@@ -114,6 +114,13 @@
   height: 60px;
 }
 
+.quote-main {
+  margin-top: 20vh;
+  font-family: PulpBold;
+  font-size: 28px;
+  line-height: 38px;
+}
+
 .new-footer {
   background-color: #000;
   height: auto;
