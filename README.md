@@ -1,4 +1,4 @@
-# `David Banu Website`
+# `Joinstack website`
 
 ## Available Scripts
 
