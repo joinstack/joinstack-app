@@ -18,7 +18,7 @@ function Home() {
                 <HeaderTitle/>
                 <img src={illustration} class="illustration-img text-center"/>
                 <div className="max-width-800">
-                    <h3 className="title-presentation text-center">We are a web & app development company that turns your ideas into a new driving force of your business.</h3>
+                    <h3 className="title-presentation text-center">We are a web and mobile app development company that turns your ideas into a new driving force of your business.</h3>
                     <p className="description-presentation text-center">We hire brilliant web and mobile app developers to deliver projects on time and maintain the top-notch code standards.</p>
                 </div>
                 <div className="quote-main text-center">
