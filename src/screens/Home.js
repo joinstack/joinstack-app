@@ -19,7 +19,7 @@ function Home() {
                 <img src={illustration} class="illustration-img text-center"/>
                 <div className="max-width-800">
                     <h3 className="title-presentation text-center">We are a web and mobile app development company that turns your ideas into a new driving force of your business.</h3>
-                    <p className="description-presentation text-center">We hire brilliant web and mobile app developers to deliver projects on time and maintain the top-notch code standards.</p>
+                    <p className="description-presentation text-center">We work with brilliant web and mobile app developers to deliver projects on time and maintain the top-notch code standards.</p>
                 </div>
                 <div className="quote-main text-center">
                     <i className="fa fa-quote-left" aria-hidden="true" />
