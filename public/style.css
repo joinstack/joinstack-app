@@ -59,6 +59,10 @@
   text-decoration: none;
 }
 
+.font-rubik-bold {
+  font-family: Rubik-Bold;
+}
+
 .header-title {
   text-decoration: none;
   color: #000;
@@ -96,7 +100,27 @@
 .title-presentation {
   margin-top: 20vh;
   font-family: Pulp;
-}  
+} 
+
+.padding-top-5 {
+  margin-top: 5vh;
+}
+
+.numbers-presentation {
+  margin-top: 10vh;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.numbers-subtitle {
+  font-family: Rubik-Bold;
+  font-size: 28px;
+}
+
+.text-numbers {
+  font-family: PulpLight;
+  font-size: 18px;
+}
 
 .description-presentation {
   margin-top: 20px;
