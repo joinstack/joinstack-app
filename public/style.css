@@ -140,8 +140,6 @@
 
 .process-main {
   margin-top: 12vh;
-  margin-left: 5vw;
-  margin-right: 5vw;
 }
 
 .process-main-title {
@@ -276,7 +274,7 @@ nav ul li a:hover {
   }
 
   .sub-title {
-    font-size: 18px;
+    font-size: 20px;
   }
 
 
