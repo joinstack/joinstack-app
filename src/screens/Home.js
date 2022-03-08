@@ -4,7 +4,7 @@ import HeaderTitle from '../components/HeaderTitle';
 import Footer from '../components/Footer';
 import TopNavBar from '../components/TopNavBar';
 
-import illustration from '../assets/illustration.jpeg';
+import illustration from '../assets/working-in-office.svg';
 import ProcessCards from '../components/ProcessCards';
 import QuoteHome from '../components/QuoteHome';
 import PerformanceNumbers from '../components/PerformanceNumbers';
@@ -15,7 +15,7 @@ function Home() {
  
     return (
         <div className="flex-wrapper">
-            <div className="container">
+            <div className="container container-main-page">
                 <TopNavBar/>
                 <HeaderTitle/>
                 <img src={illustration} class="illustration-img text-center"/>
