@@ -16,7 +16,7 @@ function Home() {
             <div className="container container-main-page">
                 <TopNavBar/>  
                 <HeaderTitle/>       
-                <h3 className="title-presentation text-center">We are a web and mobile app development company that turns your ideas into a new driving force of your business.</h3>
+                <h3 className="title-presentation text-center">We are a web and mobile app development company that turns your ideas into a new driving force for your business.</h3>
                 <p className="description-presentation text-center">We work with brilliant web and mobile app developers to deliver projects on time and maintain the top-notch code standards.</p>
                 <PerformanceNumbers/>
                 <ProcessCards/>

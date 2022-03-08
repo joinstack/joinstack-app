@@ -80,7 +80,6 @@
   overflow-wrap: break-word;
   text-align: center;
   height: auto;
-  letter-spacing: 2px;
   line-height: 40px;
   margin-top: 12rem;
 }
@@ -638,8 +637,7 @@ button:hover {
 @media screen and (max-width:480px) {
   .header-title {
     font-size: 24px;
-    margin-top: 40vh;
-    letter-spacing: 1px;
+    margin-top: 24rem;
   }
 
   .container-header {
