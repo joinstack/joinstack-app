@@ -6,6 +6,7 @@
   :root {
     --main-bg-color: #FCF8F2;
     --primary-color: #000;
+    --blue-color:#01358D;
     --text-color: #172B4D;
   }
 
@@ -46,6 +47,10 @@
     padding:8px;
   }
 
+ .container-header {
+  margin-top: 24rem;
+ } 
+
 .logo {
   float: left;
   padding: 8px;
@@ -70,33 +75,36 @@
 .header-title {
   text-decoration: none;
   color: #000;
-  font-size: 30px;
-  font-family: PulpBold;
-  display: block;
+  font-size: 28px;
+  font-family: Rubik-Bold;
   overflow-wrap: break-word;
   text-align: center;
   height: auto;
-  margin-top: 40vh;
-  text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 40px;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 12rem;
 }
 
-  .about-title {
-    color: var(--primary-color);
-    font-weight: 500;
-    margin-top: 120px;
-    font-size: 38px;
-    font-family: PulpBold;
+.v-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.about-title {
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-top: 120px;
+  font-size: 38px;
+  font-family: PulpBold;
 }
 
 .sub-title {
-  color: var(--primary-color);
+  color: var(--blue-color);
   font-weight: 500;
-  font-family: Pulp;
+  font-family: Rubik-Bold;
   font-size: 20px;
   margin-bottom: 50px;
   }
@@ -237,9 +245,6 @@ ul li {
   }
 
 .illustration-img {
-  max-width: 100%;
-  max-height: 300px;
-  display: block;
   margin: auto;
 }
 
@@ -274,6 +279,10 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width:864px) {
+
+  .container-header {
+    margin-top: 10rem;
+   }
 
   .title {
     font-size: 32px;
@@ -624,4 +633,16 @@ button:hover {
 
 .article-item .extension-text a {
   color: #fff;
+}
+
+@media screen and (max-width:480px) {
+  .header-title {
+    font-size: 24px;
+    margin-top: 40vh;
+    letter-spacing: 1px;
+  }
+
+  .container-header {
+     margin-top: 0rem;
+  }
 }
