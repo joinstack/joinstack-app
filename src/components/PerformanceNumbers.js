@@ -14,7 +14,7 @@ function PerformanceNumbers() {
                 <p className="text-center text-numbers">Mobile Apps</p>
             </div>
             <div className="col-md-4 col-xs-12 padding-top-5">
-                <p className="text-center numbers-subtitle">54</p>
+                <p className="text-center numbers-subtitle">8</p>
                 <p className="text-center text-numbers">Tools for developers</p>
             </div>
         </div>
