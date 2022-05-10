@@ -6,7 +6,7 @@ function FastVideoSection() {
         <div className="row process-main">
             <div className="col-md-6 col-xs-12">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <video class="embed-responsive-item" src={video} loop autoPlay muted></video>
+                    <video class="embed-responsive-item" src={video} loop autoPlay muted playsinline></video>
                 </div>
             </div>
             <div className="col-md-6 col-xs-12">
