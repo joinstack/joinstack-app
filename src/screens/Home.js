@@ -6,6 +6,7 @@ import TopNavBar from '../components/TopNavBar';
 import ProcessCards from '../components/ProcessCards';
 import QuoteHome from '../components/QuoteHome';
 import PerformanceNumbers from '../components/PerformanceNumbers';
+import FastVideoSection from '../components/FastVideoSection';
 
 function Home() {
 
@@ -20,6 +21,7 @@ function Home() {
                 <p className="description-presentation text-center">We work with brilliant web and mobile app developers to deliver projects on time and maintain the top-notch code standards.</p>
                 <PerformanceNumbers/>
                 <ProcessCards/>
+                <FastVideoSection/>
                 <QuoteHome/>
             </div>
             <Footer />
