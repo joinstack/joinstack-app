@@ -12,7 +12,7 @@ function FastVideoSection() {
             <div className="col-md-6 col-xs-12">
                 <h3 className="text-center font-rubik-bold process-main-title">Web apps that are crazy fast</h3>
                 <p className="description-process text-center">How fast your web app is, can mean the difference from failure to
-                succcess. Your company deserve the fastest app you can get. And we can deliver it.</p>
+                succcess for your business. Your company deserve the fastest app you can get. And we can deliver it.</p>
             </div>          
         </div>
     )
