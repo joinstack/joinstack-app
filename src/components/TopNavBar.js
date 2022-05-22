@@ -21,10 +21,10 @@ function TopNavBar() {
                         <Link to="/">How it works</Link>
                     </li>
                     <li>
-                        <Link to="/about">About Us</Link>
+                        <Link to="/">About Us</Link>
                     </li>
                     <li>
-                        <Link to="/blog">Our Work</Link>
+                        <Link to="/">Our Work</Link>
                     </li>
                     <li>
                         <Link to="/">Get started</Link>
